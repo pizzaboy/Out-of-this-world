@@ -14,13 +14,14 @@
 		B6FD44A818DC8194006E9458 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FD44A718DC8194006E9458 /* main.m */; };
 		B6FD44AC18DC8194006E9458 /* PYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FD44AB18DC8194006E9458 /* PYAppDelegate.m */; };
 		B6FD44AF18DC8194006E9458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FD44AD18DC8194006E9458 /* Main.storyboard */; };
-		B6FD44B218DC8194006E9458 /* PYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FD44B118DC8194006E9458 /* PYViewController.m */; };
 		B6FD44B418DC8194006E9458 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FD44B318DC8194006E9458 /* Images.xcassets */; };
 		B6FD44BB18DC8194006E9458 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FD44BA18DC8194006E9458 /* XCTest.framework */; };
 		B6FD44BC18DC8194006E9458 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FD449B18DC8193006E9458 /* Foundation.framework */; };
 		B6FD44BD18DC8194006E9458 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FD449F18DC8193006E9458 /* UIKit.framework */; };
 		B6FD44C518DC8194006E9458 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6FD44C318DC8194006E9458 /* InfoPlist.strings */; };
 		B6FD44C718DC8194006E9458 /* Out_of_this_worldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FD44C618DC8194006E9458 /* Out_of_this_worldTests.m */; };
+		B6FD44D218DC8233006E9458 /* PYOuterSpaceTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FD44D118DC8233006E9458 /* PYOuterSpaceTVC.m */; };
+		B6FD44D518DC8898006E9458 /* AstronomicalData.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FD44D418DC8898006E9458 /* AstronomicalData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		B6FD44AA18DC8194006E9458 /* PYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYAppDelegate.h; sourceTree = "<group>"; };
 		B6FD44AB18DC8194006E9458 /* PYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYAppDelegate.m; sourceTree = "<group>"; };
 		B6FD44AE18DC8194006E9458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B6FD44B018DC8194006E9458 /* PYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYViewController.h; sourceTree = "<group>"; };
-		B6FD44B118DC8194006E9458 /* PYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYViewController.m; sourceTree = "<group>"; };
 		B6FD44B318DC8194006E9458 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B6FD44B918DC8194006E9458 /* Out of this worldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Out of this worldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FD44BA18DC8194006E9458 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B6FD44C218DC8194006E9458 /* Out of this worldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Out of this worldTests-Info.plist"; sourceTree = "<group>"; };
 		B6FD44C418DC8194006E9458 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6FD44C618DC8194006E9458 /* Out_of_this_worldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Out_of_this_worldTests.m; sourceTree = "<group>"; };
+		B6FD44D018DC8233006E9458 /* PYOuterSpaceTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYOuterSpaceTVC.h; path = ../PYOuterSpaceTVC.h; sourceTree = "<group>"; };
+		B6FD44D118DC8233006E9458 /* PYOuterSpaceTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PYOuterSpaceTVC.m; path = ../PYOuterSpaceTVC.m; sourceTree = "<group>"; };
+		B6FD44D318DC8898006E9458 /* AstronomicalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalData.h; sourceTree = "<group>"; };
+		B6FD44D418DC8898006E9458 /* AstronomicalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstronomicalData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +115,11 @@
 		B6FD44A118DC8194006E9458 /* Out of this world */ = {
 			isa = PBXGroup;
 			children = (
+				B6FD44D018DC8233006E9458 /* PYOuterSpaceTVC.h */,
+				B6FD44D118DC8233006E9458 /* PYOuterSpaceTVC.m */,
 				B6FD44AA18DC8194006E9458 /* PYAppDelegate.h */,
 				B6FD44AB18DC8194006E9458 /* PYAppDelegate.m */,
 				B6FD44AD18DC8194006E9458 /* Main.storyboard */,
-				B6FD44B018DC8194006E9458 /* PYViewController.h */,
-				B6FD44B118DC8194006E9458 /* PYViewController.m */,
 				B6FD44B318DC8194006E9458 /* Images.xcassets */,
 				B6FD44A218DC8194006E9458 /* Supporting Files */,
 			);
@@ -126,6 +129,8 @@
 		B6FD44A218DC8194006E9458 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B6FD44D318DC8898006E9458 /* AstronomicalData.h */,
+				B6FD44D418DC8898006E9458 /* AstronomicalData.m */,
 				B6FD44A318DC8194006E9458 /* Out of this world-Info.plist */,
 				B6FD44A418DC8194006E9458 /* InfoPlist.strings */,
 				B6FD44A718DC8194006E9458 /* main.m */,
@@ -250,9 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6FD44B218DC8194006E9458 /* PYViewController.m in Sources */,
 				B6FD44A818DC8194006E9458 /* main.m in Sources */,
 				B6FD44AC18DC8194006E9458 /* PYAppDelegate.m in Sources */,
+				B6FD44D218DC8233006E9458 /* PYOuterSpaceTVC.m in Sources */,
+				B6FD44D518DC8898006E9458 /* AstronomicalData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

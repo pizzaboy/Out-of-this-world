@@ -1,5 +1,5 @@
 //
-//  PYViewController.h
+//  PYOuterSpaceTVC.h
 //  Out of this world
 //
 //  Created by Pete Yates on 21/03/2014.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PYViewController : UIViewController
+@interface PYOuterSpaceTVC : UITableViewController
 
+@property (strong, nonatomic) NSMutableArray *planets;
 @end
